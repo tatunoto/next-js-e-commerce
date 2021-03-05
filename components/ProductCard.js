@@ -29,9 +29,9 @@ function ProductCard({ _id, title, mainImage, slug, defaultProductVariant }) {
             </svg>
           </button>
         </div>
-        <div className="px-5 py-3 hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
-          <h3 className="text-gray-700 hover:text-white focus:text-white uppercase">{title}</h3>
-          <span className="text-gray-700 mt-2">
+        <div className="px-5 py-3 text-gray-700 hover:text-white focus:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+          <h3 className="uppercase">{title}</h3>
+          <span className="mt-2">
             ${defaultProductVariant?.price}
           </span>
         </div>
