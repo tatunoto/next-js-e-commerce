@@ -11,8 +11,8 @@ function Layout({ children }) {
       <header>
         <div className="container mx-auto px-6 py-3">
           <div className="flex items-center justify-between">
-            <div className="hidden w-full text-gray-600 md:flex md:items-center">
-              /*<svg
+            /*<div className="hidden w-full text-gray-600 md:flex md:items-center">
+              <svg
                 className="h-5 w-5"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -30,9 +30,9 @@ function Layout({ children }) {
                   d="M5.79417 16.5183C2.19424 13.0909 2.05438 7.39409 5.48178 3.79417C8.90918 0.194243 14.6059 0.054383 18.2059 3.48178C21.8058 6.90918 21.9457 12.6059 18.5183 16.2059L12.3124 22.7241L5.79417 16.5183ZM17.0698 14.8268L12.243 19.8965L7.17324 15.0698C4.3733 12.404 4.26452 7.97318 6.93028 5.17324C9.59603 2.3733 14.0268 2.26452 16.8268 4.93028C19.6267 7.59603 19.7355 12.0268 17.0698 14.8268Z"
                   fill="currentColor"
                 />
-              </svg>*/
+              </svg>
               <span className="text-md">060 555 333</span>
-            </div>
+            </div>*/
             <div className="w-full text-gray-700 md:text-center text-2xl font-semibold">
               RACIO Izdavačka Kuća
             </div>
@@ -124,15 +124,10 @@ function Layout({ children }) {
       <Cart cartOpen={cartOpen} handleOpen={handleOpen} />
       */}
       <main className="my-8">{children}</main>
-       <footer className="bg-gray-200 text-lg font-normal text-gray-500">
+       <footer className="bg-gray-100 text-lg font-normal text-gray-500">
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">
-          Powered by <a
-            href="https://www.delirium.design"
-            className="hover:text-purple-400"
-          >
-            Delirium Design
-          </a>
-          <p className="py-2 text-gray-500 sm:py-0">2021, all rights reserved</p>
+          Powered by <a href="https://www.delirium.design" className="hover:text-purple-400">Delirium Design</a>
+          <br>2021, all rights reserved
         </div>
       </footer>
     </div>
