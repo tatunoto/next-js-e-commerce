@@ -124,8 +124,8 @@ function Layout({ children }) {
       <Cart cartOpen={cartOpen} handleOpen={handleOpen} />
       */}
       <main className="my-8">{children}</main>
-      <footer className="container mx-auto px-6 py-3 bg-gray-100 text-md text-gray-500 font-normal">
-        <div className="flex flex-col sm:flex-row">
+      <footer className=""container mx-auto px-6 py-3">
+          <div className="flex items-center justify-between">
           Powered by <a
             href="https://www.delirium.design"
             className="hover:text-purple-400"
