@@ -126,8 +126,7 @@ function Layout({ children }) {
       <main className="my-8">{children}</main>
        <footer className="bg-gray-100 text-lg font-normal text-gray-500">
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">
-          Powered by <a href="https://www.delirium.design" className="hover:text-purple-400">Delirium Design</a>
-          <br>2021, all rights reserved
+          Powered by <a href="https://www.delirium.design" className="hover:text-purple-400">Delirium Design</a> - 2021, all rights reserved
         </div>
       </footer>
     </div>
