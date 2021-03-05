@@ -41,7 +41,6 @@ function Layout({ children }) {
               stroke-linejoin='round'
               </path>
               </svg>
-              alt="Pozovite nas na:" />
               <span className="mx-1 text-sm">060 555 333</span>
             </div>
             <div className="w-full text-gray-700 md:text-center text-2xl font-semibold">
