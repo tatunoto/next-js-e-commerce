@@ -83,7 +83,7 @@ function Layout({ children }) {
                 </a>
               </Link>
               <Link href="/products">
-                <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0">
+                <a className="mt-3 text-gray-600 hover:underline hover:text-gray-700 sm:mx-3 sm:mt-0">
                   Shop
                 </a>
               </Link>
@@ -124,8 +124,8 @@ function Layout({ children }) {
       <Cart cartOpen={cartOpen} handleOpen={handleOpen} />
       */}
       <main className="my-8">{children}</main>
-      <footer className="bg-gray-200 text-md font-normal text-gray-500 flex items-center justify-between">
-        <div className="container mx-auto px-6">
+      <footer className="container mx-auto px-6 py-3 bg-gray-100 text-md text-gray-500 font-normal">
+        <div className="flex flex-col sm:flex-row">
           Powered by <a
             href="https://www.delirium.design"
             className="hover:text-purple-400"
