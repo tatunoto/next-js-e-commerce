@@ -21,13 +21,13 @@ function Layout({ children }) {
                 <path
                   fillRule="evenodd"
                   clipRule="evenodd"
-                  d="M0 64 L64 64 L32 0 Z"
+                  d="M16 0 L16 0 L0 16 L0 32 L32 0"
                   fill="currentColor"
                 />
                 <path
                   fillRule="evenodd"
                   clipRule="evenodd"
-                  d="M0 0 L64 0 L32 64 Z"
+                  d="M64 32 L64 32 L32 64 L48 64 L64 48"
                   fill="currentColor"
                 />
               </svg>
