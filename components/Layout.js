@@ -12,7 +12,7 @@ function Layout({ children }) {
         <div className="container mx-auto px-6 py-3">
           <div className="flex items-center justify-between">
             <div className="hidden w-full text-gray-600 md:flex md:items-center">
-             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'>
+             <svg className="h-5 w-5" viewBox='0 0 64 64' fill="none" xmlns='http://www.w3.org/2000/svg' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'>
               <path data-name='layer2'
               d='M30.287 2.029A29.769 29.769 0 0 0 5.223 45.266L2.064 60.6a1.158 1.158 0 0 0 1.4 1.361L18.492 58.4A29.76 29.76 0 1 0 30.287 2.029zm17.931 46.2'
               fill='none'
