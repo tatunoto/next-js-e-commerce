@@ -97,7 +97,8 @@ function Layout({ children }) {
             />
           </div>
         </div>
-      </header>
+      </div>
+    </header>
       {/*
       // This Cart doesn't really work… yet!
       <Cart cartOpen={cartOpen} handleOpen={handleOpen} />
