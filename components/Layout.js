@@ -78,8 +78,8 @@ function Layout({ children }) {
           >
             <div className="flex flex-col sm:flex-row">
               <Link href="/">
-                <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0">
-                  Home
+                <a className="mt-3 text-gray-600 hover:underline hover:text-gray-700 sm:mx-3 sm:mt-0">
+                  Početna
                 </a>
               </Link>
               <Link href="/products">
@@ -88,8 +88,8 @@ function Layout({ children }) {
                 </a>
               </Link>
               <Link href="/about">
-                <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0">
-                  About
+                <a className="mt-3 text-gray-600 hover:underline hover:text-gray-700 sm:mx-3 sm:mt-0">
+                  O nama
                 </a>
               </Link>
             </div>
