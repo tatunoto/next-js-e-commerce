@@ -12,7 +12,7 @@ function Layout({ children }) {
         <div className="container mx-auto px-6 py-3">
           <div className="flex items-center justify-between">
             <div className="hidden w-full text-gray-600 md:flex md:items-center">
-             <img src="data:image/svg+xml;charset=utf8
+             <img src="data:image/svg+xml;charset=utf8"
               <svg
               xmlns='http://www.w3.org/2000/svg'
               viewBox='0 0 64 64'
