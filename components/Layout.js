@@ -14,7 +14,7 @@ function Layout({ children }) {
             <div className="hidden w-full text-gray-600 md:flex md:items-center">
               <svg
                 className="h-5 w-5"
-                viewBox="0 0 24 24"
+                viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
