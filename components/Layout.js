@@ -33,10 +33,10 @@ function Layout({ children }) {
               </svg>
               <span className="mx-1 text-sm">NY</span>
             </div>
-             <div className="w-full text-gray-700 md:text-center text-2xl font-semibold">
-              RACIO Izdavačka Kuća
-             </div>
-             <div className="flex items-center justify-end w-full">
+            <div className="w-full text-gray-700 md:text-center text-2xl font-semibold">
+              Pulp Inc.
+            </div>
+            <div className="flex items-center justify-end w-full">
               <button
                 onClick={handleOpen}
                 className="text-gray-600 focus:outline-none mx-4 sm:mx-0"
@@ -69,6 +69,7 @@ function Layout({ children }) {
                   </svg>
                 </button>
               </div>
+            </div>
           </div>
           <nav
             className={`${
@@ -117,8 +118,7 @@ function Layout({ children }) {
             />
           </div>
         </div>
-      </div>
-    </header>
+      </header>
       {/*
       // This Cart doesn't really work… yet!
       <Cart cartOpen={cartOpen} handleOpen={handleOpen} />
