@@ -31,10 +31,10 @@ function Layout({ children }) {
                   fill="currentColor"
                 />
               </svg>
-              <span className="mx-1 text-sm">NY</span>
+              <span className="mx-1 text-sm">BG</span>
             </div>
             <div className="w-full text-gray-700 md:text-center text-2xl font-semibold">
-              Pulp Inc.
+              SuperShop Inc.
             </div>
             <div className="flex items-center justify-end w-full">
               <button
