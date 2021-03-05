@@ -12,7 +12,12 @@ function Layout({ children }) {
         <div className="container mx-auto px-6 py-3">
           <div className="flex items-center justify-between">
             <div className="hidden w-full text-gray-600 md:flex md:items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title" aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+              <svg xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 64 64"
+               aria-labelledby="title"
+               aria-describedby="desc"
+               role="img"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
               >
                 <path
                   fillRule="evenodd"
