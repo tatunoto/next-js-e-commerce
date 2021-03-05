@@ -18,7 +18,6 @@ function Layout({ children }) {
                fill="none"
                xmlns='http://www.w3.org/2000/svg'
                role='img'
-               xmlns:xlink='http://www.w3.org/1999/xlink'
               >
               <path
               data-name='layer2'
